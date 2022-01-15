@@ -81,3 +81,15 @@ hedader css
 .content-area .fa-arrow-right {
     margin-left: 10px;
 }
+/* company logo area */
+.company-logos {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%)1;
+
+}
+.company-logo {
+    width: 100%;
+}
