@@ -40,4 +40,48 @@ style for tablet
     .header-area {
         justify-content: center;
     }
+    .hero-area {
+        flex-direction: column-reverse;
+    }
+    .content-area {
+        margin: 10px 0;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .thumbnail-area{
+        background-size: 60%;
+        background-position: center;
+    }
+    .thumbnail-area img {
+        width: 60%;
+        margin-left: 15%;
+        
+    }
+    .content-area h1{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .content-area p{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .company-logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+    .courses-area {
+        margin: 0;
+    }
+    .courses {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blog-area .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single-blog .blog-thumbnail img {
+        width: 100%;
+    }
 }
