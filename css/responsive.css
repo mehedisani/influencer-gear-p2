@@ -5,6 +5,17 @@ style for tablet
     .container {
         width: 90%;
     }
+    .main-menu ul li a {
+        margin-left: 15px;
+    }
+    .thumbnail-area{
+        background: url(../images/Circle\ design.svg) no-repeat bottom left;
+    }
+    .thumbnail-area img {
+        width: 100%;
+        margin-top: 70px;
+        margin-left: 10px;
+    }
     .courses {
         grid-template-columns: repeat(2,1fr);
     }
@@ -23,5 +34,10 @@ style for tablet
 style for tablet
 =================== */
 @media only screen and (max-width: 767px){
-    
+    .main-menu .menu-bar {
+        display: none;
+    }
+    .header-area {
+        justify-content: center;
+    }
 }
