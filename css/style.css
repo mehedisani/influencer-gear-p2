@@ -9,18 +9,25 @@ body {
     width: 1040px;
     margin: auto;
 }
+h1 {
+    font-weight: 700;
+}
+a, p {
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
 /* **********
 hedader css
 *********** */
 .header-area {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .site-logo h1{
-    font-weight: 700;
     font-size: 24px;
-    line-height: 36px;
-    color: #3A3A3A;
 }
 .main-menu {
     display: flex;
@@ -30,7 +37,6 @@ hedader css
 }
 .main-menu ul li a {
     text-decoration: none;
-    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     color: #3A3A3A;
@@ -45,11 +51,33 @@ hedader css
 }
 .content-area {
     flex: 1;
+    margin: 145px 0;
 }
 .thumbnail-area{
     flex: 1;
-
+    background: url(../images/Circle\ design.svg) no-repeat;
+    margin: 70px 0;
 }
 .thumbnail-area img {
-    width: 100%;
+    width: 90%;
+}
+.content-area h1{
+    font-size: 52px;
+    line-height: 70px;
+    margin: 0;
+}
+.content-area p{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 36px 0;
+}
+.content-area a {
+    font-size: 16px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.content-area .fa-arrow-right {
+    margin-left: 10px;
 }
