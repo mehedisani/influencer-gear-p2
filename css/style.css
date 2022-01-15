@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 .container {
-    width: 1040px;
+    max-width: 1040px;
     margin: auto;
 }
 h1 {
@@ -59,8 +59,7 @@ hedader css
     margin: 70px 0;
 }
 .thumbnail-area img {
-    width: 440px;
-    height: 414px;
+    width: 80%;
     margin-left: 100px;
 }
 .content-area h1{
@@ -181,6 +180,7 @@ BLOG AREA
 footer-area
 ********* */
 .footer-area {
+    display: block;
     background-color: #0A0826;
     color: #FFFFFF;
     text-align: center;
